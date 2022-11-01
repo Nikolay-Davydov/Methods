@@ -1,10 +1,10 @@
-import Magician from '../magicain';
+import Daemon from '../daemon';
 
-test('get object Magician', () => {
-  const description = new Magician('Man', 'Magician');
+test('get object Daemon', () => {
+  const description = new Daemon('Man', 'Daemon');
   const result = {
     name: 'Man',
-    type: 'Magician',
+    type: 'Daemon',
     health: 100,
     level: 1,
     attack: 10,
