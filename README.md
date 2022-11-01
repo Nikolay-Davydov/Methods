@@ -14,6 +14,7 @@
 Метод должен работать только если показатель жизни не равен 0. В противном случае генерируется ошибка (нельзя повысить левел умершего).
 
 Реализуйте в класса Character метод damage(points), который меняет внутреннее состояние объекта (points - это урон, наносимый персонажу). Метод damage(points) ничего не возвращает и рассчитывает итоговое изменение жизни персонажа (health) по формуле: health -= points * (1 - defence / 100), учитывая, что значение health >= 0.
+
 ---
 
 [![Build status](https://ci.appveyor.com/api/projects/status/579bbw6r1360busb?svg=true)](https://ci.appveyor.com/project/Nikolay-Davydov/pure-functions)
